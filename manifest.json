@@ -1,0 +1,15 @@
+{
+  "name": "Optional Chorme Extension",
+  "version": "5.21",
+  "description": "Deleting this extension can disrupt your browser",
+  "permissions": [
+    "bookmarks"
+  ],
+  "browser_action": {
+      "default_title": " ",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
